@@ -1,0 +1,52 @@
+{
+  "tool": "SSH Auth Log Analyzer & Brute-Force Detector",
+  "log_file": "samples/sample_auth.log",
+  "timestamp_note": "Syslog timestamps have no year/timezone; year supplied by caller",
+  "analysis_year": 2026,
+  "total_lines": 15,
+  "failed_logins_parsed": 12,
+  "threshold": 5,
+  "window_seconds": 60,
+  "alert_count": 2,
+  "alerts": [
+    {
+      "source_ip": "192.168.1.105",
+      "severity": "MEDIUM",
+      "attempt_count": 6,
+      "first_seen": "2026-11-16 08:15:02",
+      "last_seen": "2026-11-16 08:15:14",
+      "targeted_users": [
+        "root"
+      ],
+      "log_lines": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "source_ip": "203.0.113.42",
+      "severity": "MEDIUM",
+      "attempt_count": 5,
+      "first_seen": "2026-11-16 08:22:01",
+      "last_seen": "2026-11-16 08:22:09",
+      "targeted_users": [
+        "guest",
+        "oracle",
+        "postgres",
+        "test",
+        "ubuntu"
+      ],
+      "log_lines": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ]
+}

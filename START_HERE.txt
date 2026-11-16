@@ -1,0 +1,23 @@
+WELCOME — PYTHON CYBERSECURITY PORTFOLIO PROJECT
+===============================================
+Project: Auth Log Analyzer & Brute-Force Detector
+Goal date: December 15, 2026
+
+YOU DO NOT NEED TO COPY GEMINI'S CODE MANUALLY.
+The code, fabricated logs, examples, and tests are already in this folder.
+
+1) Make sure the ZIP has been extracted (right-click ZIP > Extract All).
+2) Open the extracted 'ssh-bruteforce-detector' folder.
+3) Double-click 'run_demo_windows.bat' to run the demo on Windows.
+4) Look for two alerts: 192.168.1.105 and 203.0.113.42.
+5) If it says Python not found, install Python 3.9+ from python.org.
+6) To read the full explanation, open README.md.
+
+Optional: Test in Terminal from the project folder:
+   py -3 -m unittest discover -s tests -v
+
+You can upload this project to a new GitHub repository named:
+   ssh-bruteforce-detector
+
+Important: This is an offline educational tool. Do not upload actual
+workplace or personal authentication logs to a public GitHub repository.

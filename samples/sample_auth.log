@@ -1,0 +1,15 @@
+Nov 16 08:12:01 prod-web-01 sshd[14021]: Accepted publickey for deploy from 10.0.0.22 port 51234 ssh2
+Nov 16 08:14:10 prod-web-01 sshd[14045]: Failed password for admin from 10.0.0.15 port 49812 ssh2
+Nov 16 08:15:02 prod-web-01 sshd[14088]: Failed password for root from 192.168.1.105 port 33410 ssh2
+Nov 16 08:15:04 prod-web-01 sshd[14090]: Failed password for root from 192.168.1.105 port 33412 ssh2
+Nov 16 08:15:06 prod-web-01 sshd[14092]: Failed password for root from 192.168.1.105 port 33415 ssh2
+Nov 16 08:15:09 prod-web-01 sshd[14095]: Failed password for root from 192.168.1.105 port 33419 ssh2
+Nov 16 08:15:11 prod-web-01 sshd[14098]: Failed password for root from 192.168.1.105 port 33422 ssh2
+Nov 16 08:15:14 prod-web-01 sshd[14101]: Failed password for root from 192.168.1.105 port 33425 ssh2
+Nov 16 08:19:44 prod-web-01 CRON[14150]: pam_unix(cron:session): session opened for user root(uid=0)
+Nov 16 08:22:01 prod-web-01 sshd[14201]: Failed password for invalid user oracle from 203.0.113.42 port 60111 ssh2
+Nov 16 08:22:03 prod-web-01 sshd[14203]: Failed password for invalid user postgres from 203.0.113.42 port 60114 ssh2
+Nov 16 08:22:05 prod-web-01 sshd[14205]: Failed password for invalid user guest from 203.0.113.42 port 60118 ssh2
+Nov 16 08:22:07 prod-web-01 sshd[14207]: Failed password for invalid user ubuntu from 203.0.113.42 port 60120 ssh2
+Nov 16 08:22:09 prod-web-01 sshd[14209]: Failed password for invalid user test from 203.0.113.42 port 60124 ssh2
+Nov 16 08:25:30 prod-web-01 sshd[14250]: Accepted password for jdoe from 10.0.0.50 port 54321 ssh2
